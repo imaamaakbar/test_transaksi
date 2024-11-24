@@ -7,7 +7,7 @@ const { upload } = require('../middlewares/uploadMiddleware');
 const { tokenAuth } = require('../middlewares/tokenAuthMiddleware');
 
 const router = express.Router();
-aut
+
 // Modul Memberships
 router.post('/registration', registerUser);
 router.post('/login',loginUser);
